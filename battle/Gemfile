@@ -2,10 +2,10 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+git_source(:github) {|repo_name| "https://github.com/GlenHani/Intro_to_the_web.git" }
 
-# gem "rails"
 gem 'capybara'
 gem 'selenium-webdriver'
 gem 'rspec'
 gem 'sinatra'
+gem 'shotgun'
